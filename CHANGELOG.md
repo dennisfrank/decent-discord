@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.4] - 2019-02-15
+### Added
+- Include SFMono as monospace font
+
 ## [1.1.3] - 2019-02-15
 ### Added
 - Add more Apple Emojis
