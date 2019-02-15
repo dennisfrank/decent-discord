@@ -1,6 +1,10 @@
 # A Decent Discord Theme
 
-## Import the Theme
+## Add Theme Support to Discord
+
+There are a [number of projects](https://betterdocs.us/download/) that make Discord theming possible. I tried [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) because it only adds custom CSS and not much more.
+
+## Import Decent Discord Theme
 
 Base theme:
 
