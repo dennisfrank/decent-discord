@@ -26,7 +26,7 @@ Base theme and all plugins combined:
 
 ![Screenshot 2:  Light Theme](resources/screenshots/decent-discourse-v1.1.2-light-theme-02.png)
 
-![Screenshot: Dark Theme](resources/screenshots/decent-discourse-v1.1.2-light-theme-01.png)
+![Screenshot: Dark Theme](resources/screenshots/decent-discourse-v1.1.2-dark-theme-01.png)
 
 ## TODO
 
