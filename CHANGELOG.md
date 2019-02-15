@@ -2,11 +2,11 @@
 
 ## [1.1.4] - 2019-02-15
 ### Added
-- Include SFMono as monospace font
+- Include SFMono as monospace font (thanks @Rias500)
 
 ## [1.1.3] - 2019-02-15
 ### Added
-- Add more Apple Emojis
+- Add more Apple Emojis (thanks @lindseydiloreto)
 
 ## [1.1.2] - 2019-02-15
 ### Changed
