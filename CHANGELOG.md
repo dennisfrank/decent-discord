@@ -1,8 +1,12 @@
 # Changelog
 
-## [1.0.0] - 2019-02-13
+## [1.1.1] - 2019-02-15
 ### Added
-- Initial release 
+- Add deprecated decent-discord.css again to avoid breaking already used imports 
+### Changed
+- Update README
+### Fixed
+- Fix changelog version order 
 
 ## [1.1.0] - 2019-02-15
 ### Added
@@ -18,3 +22,8 @@
 - Remove initial decent-discord.css
 ### Changed
 - Complete rewrite in Sass
+
+## [1.0.0] - 2019-02-13
+### Added
+- Initial release 
+
