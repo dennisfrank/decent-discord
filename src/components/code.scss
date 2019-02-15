@@ -1,0 +1,15 @@
+/* Code Block */
+[class*="markup-"] code.inline {
+  background: var(--inline-code-bg-color);
+  padding: 2px 4px;
+}
+
+[class*="markup-"] pre {
+  background: var(--code-block-bg-color);
+  border-color: var(--ui-border-color);
+}
+
+[class*="markup-"] code:not(.inline) {
+  background: var(--code-block-bg-color);
+  color: var(--code-block-color);
+}

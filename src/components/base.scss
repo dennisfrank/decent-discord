@@ -1,0 +1,14 @@
+* {
+  -webkit-font-smoothing: var(--font-smoothing) !important;
+}
+
+/* Font */
+#app-mount,
+#app-mount textarea {
+  font-family: var(--font-family) !important;
+}
+
+/* Disable rounded borders of main section */
+[class*="base-"] {
+  border-radius: 0 !important;
+}

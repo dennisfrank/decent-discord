@@ -1,0 +1,13 @@
+/* Mentions */
+.theme-light [class*="mention"] {
+  background-color: var(--mention-bg-color) !important;
+  color: var(--mention-color) !important;
+}
+.theme-light [class*="mention"]:hover {
+  background-color: var(--mention-color) !important;
+  color: #FFFFFF !important;
+}
+.theme-light [class*="isMentioned-"] [class*="mention"]:hover {
+  color: var(--mention-color) !important;
+}
+
