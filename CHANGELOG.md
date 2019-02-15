@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.3] - 2019-02-15
+### Added
+- Add more Apple Emojis
+
 ## [1.1.2] - 2019-02-15
 ### Changed
 - Minify dist css files
