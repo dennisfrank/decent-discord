@@ -1,0 +1,7 @@
+/**
+  This file is DEPRECATED and and will be deleted soon.
+  Please import dist/base.css and dist/plugins/PLUGIN-NAME.css or dist/complete.css
+ */
+
+@import url(https://dennisfrank.github.io/decent-discord/dist/base.css);
+@import url(https://dennisfrank.github.io/decent-discord/dist/plugins/apple-emojis.css);
