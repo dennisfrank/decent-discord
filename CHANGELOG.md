@@ -4,7 +4,7 @@
 ### Changed
 - Minify dist css files
 
-### [1.1.1] - 2019-02-15
+## [1.1.1] - 2019-02-15
 ### Added
 - Add deprecated decent-discord.css again to avoid breaking already used imports 
 ### Changed
