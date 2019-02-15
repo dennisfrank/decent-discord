@@ -1,0 +1,35 @@
+/* Text Input */
+[class*="channelTextArea-"] {
+  padding-top: 0;
+  border-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+[class*="innerNoAutocomplete-"],
+[class*="titleWrapper-"] [class*="searchBar-"] {
+  border: solid 2px var(--ui-border-color) !important;
+}
+
+[class*="inner-"],
+[class*="titleWrapper-"] [class*="searchBar-"] {
+  background-color: var(--text-input-background-color) !important;
+}
+
+[class*="textArea-"],
+[class*="titleWrapper-"] [class*="searchBar-"] {
+  color: var(--text-input-color) !important;
+}
+
+[class*="DraftEditorPlaceholder-root"] {
+  padding-top: 1px !important;
+}
+
+[class*="searchBar-"] [class*="icon-"] {
+  top: -0.5px !important;
+}
+
+[class*="DraftEditorPlaceholder-inner"],
+textarea::placeholder {
+  color: var(--text-input-color) !important;
+  opacity: 0.45 !important;
+}

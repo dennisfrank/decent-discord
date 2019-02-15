@@ -1,0 +1,21 @@
+/* Message */
+[class*="containerCozyBounded-"] {
+  padding-bottom: var(--message-padding);
+  padding-top: var(--message-padding);
+}
+
+/* Message Content Width */
+@media (min-width: 1100px) {
+  [class*="containerCozy-"] [class*="contentCozy-"] {
+    max-width: var(--message-max-width);
+  }
+}
+
+/* Message text color */
+[class*="containerCozy-"] [class*="contentCozy-"] [class*="markup-"] {
+  color: var(--message-color) !important;
+}
+
+[class*="containerCozyBounded-"]:hover {
+  background-color: var(--message-hover-background);
+}

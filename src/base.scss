@@ -1,0 +1,56 @@
+//.theme-light {
+//  --message-color: #f00 !important;
+//}
+
+$base-color-dark: #202225;
+$base-color-light: #f3f3f4;
+
+:root {
+  --font-family: "Lato-Regular", "Helvetica Neue", Helvetica, "Segoe UI", -apple-system, BlinkMacSystemFont, Tahoma, Arial, sans-serif;
+  --message-max-width: 50rem;
+  --avatar-border-radius: 3px;
+  --sidebar-icon-width: 35px;
+  --sidebar-icon-border-radius: 8px;
+  --channel-bar-width: 11.5rem;
+  --channel-bar-item-height: 1.5rem;
+  --message-padding: .5rem;
+  --username-weight: 900;
+  --code-block-bg-color: #2f3136;
+}
+
+.theme-dark {
+  --font-smoothing: antialiased;
+  --message-hover-background: #{rgba($base-color-light, .04)};
+  --message-color: #{$base-color-light};
+  --text-input-color: #{$base-color-light};
+  --ui-border-color: #{rgba($base-color-light, .2)};
+  --scrollbar-color: #{rgba($base-color-light, .3)};
+}
+
+.theme-light {
+  --message-hover-background: #{rgba($base-color-dark, .03)};
+  --message-color: #{$base-color-dark};
+  --text-input-color: #{$base-color-dark};
+  --ui-border-color: #{rgba($base-color-dark, .3)};
+  --text-input-background-color: #fff;
+  --scrollbar-color: #{rgba($base-color-dark, .3)};
+
+  --mention-color: #F04747;
+  --mention-bg-color: #FDF2F1;
+  --link-color: #4A7CF6;
+  --inline-code-bg-color: #e3e4e7;
+  --code-block-color: #dcddde;
+}
+
+// Components
+@import "components/avatar";
+@import "components/base";
+@import "components/channelbar";
+@import "components/code";
+@import "components/links";
+@import "components/mentions";
+@import "components/message";
+@import "components/scrollbar";
+@import "components/sidebar";
+@import "components/textinput";
+@import "components/username";

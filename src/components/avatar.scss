@@ -1,0 +1,4 @@
+/* Avatar */
+[class*="avatar-"] [class*="image-"] {
+  border-radius: var(--avatar-border-radius) !important;
+}

@@ -1,0 +1,46 @@
+/* Channel Bar Widths */
+[class*="channels-"] {
+  width: var(--channel-bar-width);
+  transition: width .1s ease-out;
+}
+
+
+/* Hide Channel Bar */
+@media (max-width: 1100px) {
+
+  [class*="channels-"] {
+    width: 0;
+  }
+
+  [class*="guildsWrapper"]:hover + div > :nth-child(2) > [class*="channels-"],
+  [class*="channels-"]:hover {
+    position: relative;
+    width: var(--channel-bar-width);
+  }
+
+  /* Invisible Area Besides Channel Bar */
+  [class*="channels-"]::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 3rem;
+  }
+}
+
+/* Channel Bar Items */
+[class*="channels-"] [class*="wrapper-"] {
+  height: calc(var(--channel-bar-item-height) + 2px);
+  overflow: visible;
+}
+
+[class*="channels-"] [class*="content-"] {
+  height: var(--channel-bar-item-height);
+}
+
+[class*="channels-"] [class*="name-"] {
+  line-height: var(--channel-bar-item-height);
+  font-size: .9rem;
+}

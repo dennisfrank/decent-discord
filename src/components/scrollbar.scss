@@ -1,0 +1,4 @@
+/* Scrollbar */
+[class*="scroller-"]::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color) !important;
+}
