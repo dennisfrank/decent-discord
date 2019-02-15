@@ -13,3 +13,7 @@
   background: var(--code-block-bg-color);
   color: var(--code-block-color);
 }
+
+code {
+  font-family: var(--font-family-mono) !important;
+}
