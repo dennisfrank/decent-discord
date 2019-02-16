@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.5] - 2019-02-16
+### Fixed
+- Fix :smile: Emoji mapping
+
 ## [1.1.4] - 2019-02-15
 ### Added
 - Include SFMono as monospace font (thanks @Rias500)
