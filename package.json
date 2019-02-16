@@ -7,7 +7,10 @@
     "type": "git",
     "url": "git+https://github.com/dennisfrank/decent-discord.git"
   },
-  "keywords": ["discord","theme"],
+  "keywords": [
+    "discord",
+    "theme"
+  ],
   "author": "Dennis Frank <mail@dennisfrank.info> (https://dennisfrank.net)",
   "contributors": [
     "Jalen Davenport <jalen@dominion-designs.com> (http://dominion-designs.com)"
@@ -21,6 +24,7 @@
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "2.0.1",
     "cross-env": "^5.2.0",
+    "emoji-datasource-apple": "^4.1.0",
     "laravel-mix": "^4.0.14",
     "resolve-url-loader": "2.3.1",
     "sass": "^1.17.0",

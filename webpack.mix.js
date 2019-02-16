@@ -1,4 +1,16 @@
 let mix = require('laravel-mix');
+let fs = require('fs');
+
+const appleEmojis = require('./src/plugins/apple-emojis');
+
+mix.extend('generateEmojis', function(webpackConfig, ...args) {
+  mix.copyDirectory('node_modules/emoji-datasource-apple/img/apple/64/', 'resources/emojis/apple/');
+  fs.writeFile(args[1], args[0], function(err, data){
+    if (err) console.log(err);
+    console.log("Successfully generated emojis.");
+  });
+  mix.version([args[1]]);
+});
 
 /*
  |--------------------------------------------------------------------------
@@ -14,7 +26,7 @@ let mix = require('laravel-mix');
 mix
   .setPublicPath('/')
   .sass('src/base.scss', 'dist/')
-  .sass('src/plugins/apple-emojis.scss', 'dist/plugins/')
+  .generateEmojis(appleEmojis, 'dist/plugins/apple-emojis.css')
   .combine(
     [
       'dist/base.css',
