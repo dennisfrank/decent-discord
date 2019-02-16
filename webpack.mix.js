@@ -9,6 +9,7 @@ mix.extend('generateEmojis', function(webpackConfig, ...args) {
     if (err) console.log(err);
     console.log("Successfully generated emojis.");
   });
+  mix.combine(args[1], args[1]);
   mix.version([args[1]]);
 });
 
