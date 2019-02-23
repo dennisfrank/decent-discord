@@ -27,6 +27,7 @@ $base-color-light: #f3f3f4;
   --text-input-color: #{$base-color-light};
   --ui-border-color: #{rgba($base-color-light, .2)};
   --scrollbar-color: #{rgba($base-color-light, .3)};
+  --link-color: #0096cf;
 }
 
 .theme-light {
@@ -40,6 +41,7 @@ $base-color-light: #f3f3f4;
   --mention-color: #F04747;
   --mention-bg-color: #FDF2F1;
   --link-color: #4A7CF6;
+  --link-color: #0088bb;
   --inline-code-bg-color: #e3e4e7;
   --code-block-color: #dcddde;
 }
