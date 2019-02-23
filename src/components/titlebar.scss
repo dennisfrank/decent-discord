@@ -1,0 +1,9 @@
+/* Title Bar */
+[class*="titleWrapper-"] {
+
+  /* Vertical dividers */
+  [class*="divider-"],
+  [class*="topic-"]::before {
+    display: none;
+  }
+}

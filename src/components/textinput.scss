@@ -2,7 +2,7 @@
 [class*="channelTextArea-"] {
   padding-top: 0;
   border-top: 0 !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 20px !important;
 }
 
 [class*="innerNoAutocomplete-"],
@@ -32,4 +32,12 @@
 textarea::placeholder {
   color: var(--text-input-color) !important;
   opacity: 0.45 !important;
+}
+
+/* Typing notification */
+[class*="typing-"] {
+  margin-bottom: -4px;
+  background: none;
+  font-size: 12px;
+  opacity: .8;
 }
