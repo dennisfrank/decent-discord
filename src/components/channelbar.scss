@@ -41,11 +41,7 @@
   }
 }
 
-[class*="channels-"] [class*="content-"] {
-  height: var(--channel-bar-item-height);
-}
 
 [class*="channels-"] [class*="name-"] {
-  line-height: var(--channel-bar-item-height);
   font-size: .9rem;
 }
