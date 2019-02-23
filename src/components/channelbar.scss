@@ -9,31 +9,36 @@
 @media (max-width: 1100px) {
 
   [class*="channels-"] {
-    width: 0;
+    position: relative;
+    width: 0 !important;
   }
 
   [class*="guildsWrapper"]:hover + div > :nth-child(2) > [class*="channels-"],
   [class*="channels-"]:hover {
-    position: relative;
-    width: var(--channel-bar-width);
+    width: var(--channel-bar-width) !important;
   }
+
 
   /* Invisible Area Besides Channel Bar */
-  [class*="channels-"]::after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    bottom: 0;
-    left: 100%;
-    width: 3rem;
-  }
-}
+  [class*="channels-"] {
 
-/* Channel Bar Items */
-[class*="channels-"] [class*="wrapper-"] {
-  height: calc(var(--channel-bar-item-height) + 2px);
-  overflow: visible;
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      left: 100%;
+      width: 17px;
+    }
+
+    &:hover {
+
+      &::after {
+        width: 3rem;
+      }
+    }
+  }
 }
 
 [class*="channels-"] [class*="content-"] {
