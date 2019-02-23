@@ -27,6 +27,10 @@ $base-color-light: #f3f3f4;
   --text-input-color: #{$base-color-light};
   --ui-border-color: #{rgba($base-color-light, .2)};
   --scrollbar-color: #{rgba($base-color-light, .3)};
+  --mention-color: #6f8fff;
+  --mention-bg-color: rgba(114,137,218,.1);
+  --mention-hover-color: var(--mention-color);
+  --mention-hover-bg-color: rgba(114,137,218,.3);
   --link-color: #0096cf;
 }
 
@@ -38,9 +42,12 @@ $base-color-light: #f3f3f4;
   --text-input-background-color: #fff;
   --scrollbar-color: #{rgba($base-color-dark, .3)};
 
-  --mention-color: #F04747;
-  --mention-bg-color: #FDF2F1;
-  --link-color: #4A7CF6;
+  //--mention-color: #F04747;
+  //--mention-bg-color: #FDF2F1;
+  --mention-color: #506bcc;
+  --mention-bg-color: #f1f3fb;
+  --mention-hover-color: var(--mention-color);
+  --mention-hover-bg-color: #e1e5f6;
   --link-color: #0088bb;
   --inline-code-bg-color: #e3e4e7;
   --code-block-color: #dcddde;
