@@ -42,6 +42,11 @@
 }
 
 
-[class*="channels-"] [class*="name-"] {
-  font-size: .9rem;
+/* Channel Bar Category Titles */
+[class*="nameDefault-"],
+[class*="nameHovered-"],
+[class*="nameCollapsed-"],
+[class*="nameHoveredCollapsed-"] {
+  font-size: .7rem;
+  letter-spacing: .05em;
 }
