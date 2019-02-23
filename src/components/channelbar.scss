@@ -64,4 +64,20 @@
   [class*="nameUnreadText-"] {
     opacity: 1;
   }
+
+  /* Selected Channel */
+  [class*="contentSelectedText-"],
+  [class*="contentSelectedVoice-"] {
+    background-color: var(--channel-highlight-bg-color) !important;
+
+    [class*="icon-"],
+    [class*="actionIcon-"],
+    [class*="name-"] {
+      color: var(--channel-highlight-color);
+    }
+
+    [class*="name-"] {
+      opacity: 1;
+    }
+  }
 }

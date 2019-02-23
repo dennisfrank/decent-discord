@@ -16,6 +16,8 @@ $base-color-light: #f3f3f4;
   --message-padding: .5rem;
   --username-weight: 900;
   --code-block-bg-color: #2f3136;
+  --channel-highlight-color: $base-color-dark;
+  --channel-highlight-bg-color: #{rgba($base-color-light, .7)};
 }
 
 .theme-dark {
