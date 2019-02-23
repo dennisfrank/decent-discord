@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.7] - 2019-02-23
+### Added
+- Update server badge position
+
 ## [1.1.6] - 2019-02-23
 ### Added
 - Add selected channel styles
