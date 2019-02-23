@@ -50,3 +50,9 @@
   font-size: .7rem;
   letter-spacing: .05em;
 }
+
+
+/* Channels */
+[class*="channels-"] [class*="name-"] {
+  font-size: 14px !important;
+}
