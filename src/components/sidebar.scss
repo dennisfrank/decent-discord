@@ -9,7 +9,7 @@
 /* Center Sidebar Items */
 [class*="guildsWrapper"] [class*="guildInner-"],
 [class*="guildsWrapper"] [class*="guildsAdd-"] {
-  transform: translateX(8px);
+  transform: translateX(8px) !important;
 }
 
 [class*="guildsWrapper"] [class*="iconSizeLarge"],
@@ -44,20 +44,16 @@
 
 
 /* Sidebar Separators */
-[class*="guildsWrapper"] [class*="guildSeparator-"],
-[class*="guildsWrapper"] [class*="downloadAppButton-"]::after {
+[class*="guildsWrapper"] [class*="guildSeparator-"] {
   display: none;
 }
 
 
 /* Download Apps Button */
 [class*="guildsWrapper"] [class*="downloadAppButton-"] {
-  width: 100%;
-  margin-top: 20px;
-  margin-left: -4px;
-  padding: 0;
-  font-size: 8px;
+  display: none;
 }
+
 
 [class*="guildsWrapper"] [class*="downloadAppButton-"] > svg {
   display: none;
