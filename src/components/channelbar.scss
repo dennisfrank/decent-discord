@@ -1,7 +1,7 @@
 /* Channel Bar Widths */
 [class*="channels-"] {
-  width: var(--channel-bar-width);
-  transition: width .1s ease-out;
+  width: var(--channel-bar-width) !important;
+  transition: width .2s ease-out !important;
 }
 
 
