@@ -53,6 +53,15 @@
 
 
 /* Channels */
-[class*="channels-"] [class*="name-"] {
-  font-size: 14px !important;
+[class*="channels-"] {
+
+  [class*="name-"] {
+    font-size: 14px !important;
+    opacity: .8;
+  }
+
+  /* Unread Channels */
+  [class*="nameUnreadText-"] {
+    opacity: 1;
+  }
 }
