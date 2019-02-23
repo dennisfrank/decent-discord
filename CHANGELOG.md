@@ -1,7 +1,11 @@
 # Changelog
 
+## [1.1.8] - 2019-02-23
+### Fixed
+- Fix channel highlight color variable
+
 ## [1.1.7] - 2019-02-23
-### Added
+### Fixed
 - Update server badge position
 
 ## [1.1.6] - 2019-02-23
