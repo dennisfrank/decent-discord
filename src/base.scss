@@ -1,10 +1,8 @@
-//.theme-light {
-//  --message-color: #f00 !important;
-//}
-
+// Base Colors
 $base-color-dark: #202225;
 $base-color-light: #f3f3f4;
 
+/* General Variables */
 :root {
   --font-family: "Lato-Regular", "Helvetica Neue", Helvetica, "Segoe UI", -apple-system, BlinkMacSystemFont, Tahoma, Arial, sans-serif;
   --font-family-mono: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
@@ -21,6 +19,7 @@ $base-color-light: #f3f3f4;
   --channel-highlight-bg-color: #{rgba($base-color-light, .7)};
 }
 
+/* Dark Theme Variables */
 .theme-dark {
   --font-smoothing: antialiased;
   --message-hover-background: #{rgba($base-color-light, .04)};
@@ -35,6 +34,7 @@ $base-color-light: #f3f3f4;
   --link-color: #0096cf;
 }
 
+/* Light Theme Variables */
 .theme-light {
   --message-hover-background: #{rgba($base-color-dark, .03)};
   --message-color: #{$base-color-dark};
@@ -42,9 +42,6 @@ $base-color-light: #f3f3f4;
   --ui-border-color: #{rgba($base-color-dark, .3)};
   --text-input-background-color: #fff;
   --scrollbar-color: #{rgba($base-color-dark, .3)};
-
-  //--mention-color: #F04747;
-  //--mention-bg-color: #FDF2F1;
   --mention-color: #506bcc;
   --mention-bg-color: #f1f3fb;
   --mention-hover-color: var(--mention-color);
