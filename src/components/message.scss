@@ -4,18 +4,23 @@
   padding-top: var(--message-padding);
 }
 
-/* Message Content Width */
-@media (min-width: 1100px) {
-  [class*="containerCozy-"] [class*="contentCozy-"] {
+/* Message text color */
+[class*="containerCozy-"] [class*="contentCozy-"] [class*="markup-"] {
+  color: var(--message-color) !important;
+
+  /* Max message content width */
+  @media (min-width: 1100px) {
     max-width: var(--message-max-width);
   }
 }
 
-/* Message text color */
-[class*="containerCozy-"] [class*="contentCozy-"] [class*="markup-"] {
-  color: var(--message-color) !important;
-}
+/* Individual message */
+[class*="messageCozy-"] {
+  margin-bottom: 0;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
 
-[class*="containerCozyBounded-"]:hover {
-  background-color: var(--message-hover-background);
+  &:hover {
+    background-color: var(--message-hover-background);
+  }
 }
