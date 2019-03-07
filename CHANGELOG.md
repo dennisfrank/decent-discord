@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.9] - 2019-03-07
+### Added
+- Add more visible message action toolbar
+
 ## [1.1.8] - 2019-02-23
 ### Fixed
 - Fix channel highlight color variable
