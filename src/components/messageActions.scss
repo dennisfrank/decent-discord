@@ -1,0 +1,29 @@
+/* Message action toolbar */
+[class*="messageCozy-"] [class*="buttonContainer-"] > [class*="buttonContainer-"] {
+  visibility: hidden;
+  position: absolute;
+  top: -7.5px;
+  right: 50px;
+  padding: 2px;
+  background-color: var(--background-color);
+  border: solid 2px var(--ui-border-color-lighter);
+  border-radius: 5px;
+}
+
+[class*="messageCozy-"]:hover [class*="buttonContainer-"] > [class*="buttonContainer-"] {
+  visibility: visible;
+
+  /* Toolbar buttons */
+  & > * {
+    visibility: visible;
+    opacity: 1;
+
+    &:hover {
+      opacity: .75;
+    }
+  }
+}
+
+[class*="contentCozy-"] {
+  position: relative;
+}
